@@ -3,11 +3,6 @@ body {
   font-family: "Roboto";
 }
 
-.hero {
-  padding: 24px 128px;
-  background-color: #1f2937;
-  margin: -8px;
-}
 header {
   padding: 24px 128px;
   margin: -8px;
@@ -34,3 +29,24 @@ header a {
   color: #e5e7eb;
   font-size: 18px;
 }
+
+.hero {
+  padding: 24px 128px;
+  background-color: #1f2937;
+  margin: -8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .hero {
+        flex-direction: column-reverse;
+    }}
+
+
+.hero .left-side {
+    flex: 1;
+}
+
+
