@@ -85,3 +85,19 @@ header a,
   padding: 4px 16px;
   margin-top: 8px;
 }
+
+/* info */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 32px 220px;
+}
+
+.info .img-container {
+    display: flex;
+    margin-top: 32px;
+
+}
