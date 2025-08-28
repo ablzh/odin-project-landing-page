@@ -181,3 +181,13 @@ header a,
   border: 2px solid white;
   padding: 4px 32px;
 }
+
+/* footer */
+
+footer{
+  color: white;
+  margin: -8px;
+  background-color: #1f2937;
+  text-align: center;
+  padding: 32px;
+}
