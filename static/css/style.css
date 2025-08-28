@@ -136,14 +136,48 @@ header a,
 .quote-text {
   font-size: 36px;
   font-style: italic;
-  color: #1F2937;
+  color: #1f2937;
 }
 
-.quote-author, .quote-text {
-  color: #1F2937;
+.quote-author,
+.quote-text {
+  color: #1f2937;
 }
 
 .quote-author {
   font-weight: 900;
   text-align: end;
+}
+
+/* call-to-action */
+
+.call-to-action .container {
+  margin: 64px 256px;
+  padding: 32px 48px;
+  border-radius: 8px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.call-to-action .bold-text {
+  color: white;
+  font-size: 18px;
+  margin: 0;
+  font-weight: 900;
+}
+
+.call-to-action p {
+  color: #e5e7eb;
+  font-size: 16px;
+  margin: 0;
+}
+
+.call-to-action button {
+  background-color: transparent;
+  color: white;
+  border-radius: 8px;
+  border: 2px solid white;
+  padding: 4px 32px;
 }
