@@ -29,7 +29,7 @@ The design references include:
 
 ## Live Preview
 
-[**View the project here**](#) _(link will be added later)_
+[**View the project here**](https://ablzh.github.io/odin-project-landing-page/)
 
 ----------
 
